@@ -1,0 +1,91 @@
+
+       Manjari Akella(akella.4@osu.edu)    
+     CSE6431 - Advanced Operating Systems  
+        Resturant Simulation Project       
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                   OVERVIEW
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This project simulates a resturant taking heavy help from Java Runtime library's 
+support for multithreading. Diner and Cook are the two threads that have been 
+created. Table and Machines have been treated as resources that need to be shared.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                         ASSUMPTIONS AND INFORMATION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. While using machines to cook food, once a machine is acquired by a cook,
+   they do not release the machine until all items in the order that need 
+   to be cook using this machine are cooked.
+2. Indexing starts from 0 for diners, cooks and tables. So if we have 10 diners,  
+   they will be named Diner 0 - Diner 9. This is same for cooks and tables as well. 
+3. Diners are given priority in a first come, first serve(FCFS) basis. 
+4. Code can be found under ./src/ directory.
+5. Jar file to run the program is in the current directory.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  FOLDER ORGANIZATION AND CLASSES/INTERFACES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~
+Folder Organization - 
+~~~~~~~~~~~~~~~~~~~~~
+
+The following are the two folders in the source directory:
+1. simulation - contains the class Restaurant6431 which contains the main function 
+	       from where the simulation takes place.
+2. resourcesAndHelpers - contains the rest of the classes/interfaces which either 
+                         define resources, threads or other helper classes.
+
+~~~~~~~~~~~~~~~~~~~~~
+Classes/Interfaces - 
+~~~~~~~~~~~~~~~~~~~~~
+
+The following is a brief overview of the classes and interfaces implemented:
+1. Clock.java - implements a logical clock.
+2. Cook.java - implements the cook thread.
+3. Cooks.java - initializes the cook class and deals with competition.
+4. Diner.java - implements the diner thread.
+5. Diners.java - initializes the diner class and deals with competition.
+6. Order.java - contains the order information for each order: burgers, fries, 
+   cokes etc.
+7. Table.java - implements the table resource.
+8. Tables.java - initializes the cook class and deals with competition.
+9. Resource.java - interface which is implemented by Table.java and Machine.java.
+10. Machine.java - implements the machine resource
+11. Machines.java -  initializes machienes and deals with competition.
+10. BurgerMachine.java - sets up burger machine by extending Machine.java.
+11. FriesMachine.java - sets up fries machine by extending Machine.java.
+12. SodaMachine.java - sets up soda machine by extending Machine.java.
+13. OutputHelper - prints output message for each event to the output file.
+14. Restaurant6431.java - sets up the restaurants, reads in from input file and 
+    simulates the resturant as diners arrive.
+
+More information can be found in the form of comments in the code.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                  INPUT/OUTPUT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The input is a text file. The first command line argument (args[0]) takes in the 
+  name of this file.
+- The output is a text file named Output<InputFileName>.txt. (If the InputFileName 
+  is TestData1.txt, the output file is named OutputTestData1.txt). The output is 
+  also echoed on the screen for convinence sake. This can be disabled by 
+  commenting out Line 44 of the OutputHelper.java file.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                               RUNNING THE PROGRAM
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. To run the program use the following command from linux command line- 
+
+$java -jar AkellaRestaurant <inputfilename>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Note: For any clarifications please reach out to me at akella.4@osu.edu.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

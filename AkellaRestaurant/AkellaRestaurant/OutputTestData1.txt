@@ -1,0 +1,124 @@
+10 diners, 4 tables, 2 cooks.
+Time 20: Diner 0 arrives at the restaurant.
+Time 20: Diner 0 gets table 0.
+Time 20: Diner 0 orders 2 burgers, 1 fries, 0 cokes.
+Time 20: Cook 1 gets order from Diner 0.
+Time 20: Cook 1 is using burger machine for time 10 minutes. 2 burgers to make.
+Time 30: Cook 1 releases burger machine.
+Time 30: Cook 1 is using fries machine for time 3 minutes. 1 fries to make.
+Time 30: Diner 1 arrives at the restaurant.
+Time 30: Diner 1 gets table 1.
+Time 30: Diner 1 orders 4 burgers, 0 fries, 1 cokes.
+Time 30: Cook 0 is using burger machine for time 20 minutes. 4 burgers to make.
+Time 30: Cook 0 gets order from Diner 1.
+Time 31: Diner 2 arrives at the restaurant.
+Time 31: Diner 2 gets table 2.
+Time 31: Diner 2 orders 2 burgers, 1 fries, 0 cokes.
+Time 32: Diner 3 arrives at the restaurant.
+Time 32: Diner 3 gets table 3.
+Time 32: Diner 3 orders 2 burgers, 1 fries, 0 cokes.
+Time 33: Cook 1 releases fries machine.
+Time 33: Diner 4 arrives at the restaurant.
+Time 33: Cook 1 completes order of Diner 0.
+Time 33: Diner 4 is waiting for a table.
+Time 33: Diner 0 starts eating.
+Time 33: Diner 4 is waiting for a table.
+Time 33: Cook 1 gets order from Diner 3.
+Time 33: Cook 1 is using fries machine for time 3 minutes. 1 fries to make.
+Time 36: Cook 1 releases fries machine.
+Time 50: Cook 0 releases burger machine.
+Time 50: Cook 1 is using burger machine for time 10 minutes. 2 burgers to make.
+Time 50: Cook 0 is using soda machine for time 1 minutes. 1 cokes to make.
+Time 51: Cook 0 releases soda machine.
+Time 51: Cook 0 completes order of Diner 1.
+Time 51: Diner 4 is waiting for a table.
+Time 51: Cook 0 gets order from Diner 2.
+Time 51: Cook 0 is using fries machine for time 3 minutes. 1 fries to make.
+Time 51: Diner 1 starts eating.
+Time 54: Cook 0 releases fries machine.
+Time 60: Cook 1 releases burger machine.
+Time 60: Diner 5 arrives at the restaurant.
+Time 60: Cook 0 is using burger machine for time 10 minutes. 2 burgers to make.
+Time 60: Cook 1 completes order of Diner 3.
+Time 60: Diner 3 starts eating.
+Time 63: Diner 0 leaves the resturant.
+Time 63: Diner 4 gets table 0.
+Time 63: Diner 5 is waiting for a table.
+Time 63: Diner 4 orders 2 burgers, 0 fries, 1 cokes.
+Time 63: Cook 1 is using soda machine for time 1 minutes. 1 cokes to make.
+Time 63: Diner 5 is waiting for a table.
+Time 63: Cook 1 gets order from Diner 4.
+Time 64: Cook 1 releases soda machine.
+Time 70: Cook 1 is using burger machine for time 10 minutes. 2 burgers to make.
+Time 70: Diner 6 arrives at the restaurant.
+Time 70: Cook 0 releases burger machine.
+Time 70: Cook 0 completes order of Diner 2.
+Time 70: Diner 2 starts eating.
+Time 71: Diner 7 arrives at the restaurant.
+Time 72: Diner 8 arrives at the restaurant.
+Time 73: Diner 9 arrives at the restaurant.
+Time 80: Cook 1 releases burger machine.
+Time 80: Cook 1 completes order of Diner 4.
+Time 80: Diner 4 starts eating.
+Time 81: Diner 1 leaves the resturant.
+Time 81: Diner 5 gets table 1.
+Time 81: Diner 6 is waiting for a table.
+Time 81: Diner 5 orders 2 burgers, 1 fries, 0 cokes.
+Time 81: Cook 0 is using burger machine for time 10 minutes. 2 burgers to make.
+Time 81: Diner 6 is waiting for a table.
+Time 81: Cook 0 gets order from Diner 5.
+Time 90: Diner 3 leaves the resturant.
+Time 90: Diner 6 gets table 3.
+Time 90: Diner 7 is waiting for a table.
+Time 90: Cook 1 is using soda machine for time 1 minutes. 1 cokes to make.
+Time 90: Diner 6 orders 4 burgers, 0 fries, 1 cokes.
+Time 90: Cook 1 gets order from Diner 6.
+Time 91: Cook 1 releases soda machine.
+Time 91: Cook 0 releases burger machine.
+Time 91: Cook 0 is using fries machine for time 3 minutes. 1 fries to make.
+Time 91: Cook 1 is using burger machine for time 20 minutes. 4 burgers to make.
+Time 94: Cook 0 releases fries machine.
+Time 94: Cook 0 completes order of Diner 5.
+Time 94: Diner 5 starts eating.
+Time 100: Diner 2 leaves the resturant.
+Time 100: Diner 7 gets table 2.
+Time 100: Diner 8 is waiting for a table.
+Time 100: Diner 7 orders 2 burgers, 1 fries, 0 cokes.
+Time 100: Cook 0 is using fries machine for time 3 minutes. 1 fries to make.
+Time 100: Cook 0 gets order from Diner 7.
+Time 100: Diner 8 is waiting for a table.
+Time 103: Cook 0 releases fries machine.
+Time 110: Diner 4 leaves the resturant.
+Time 110: Diner 8 gets table 0.
+Time 110: Diner 9 is waiting for a table.
+Time 110: Diner 8 orders 2 burgers, 2 fries, 0 cokes.
+Time 111: Cook 1 releases burger machine.
+Time 111: Cook 0 is using burger machine for time 10 minutes. 2 burgers to make.
+Time 111: Cook 1 completes order of Diner 6.
+Time 111: Diner 6 starts eating.
+Time 111: Cook 1 gets order from Diner 8.
+Time 111: Diner 9 is waiting for a table.
+Time 111: Cook 1 is using fries machine for time 6 minutes. 2 fries to make.
+Time 117: Cook 1 releases fries machine.
+Time 121: Cook 0 releases burger machine.
+Time 121: Cook 1 is using burger machine for time 10 minutes. 2 burgers to make.
+Time 121: Cook 0 completes order of Diner 7.
+Time 121: Diner 7 starts eating.
+Time 124: Diner 5 leaves the resturant.
+Time 124: Diner 9 gets table 1.
+Time 124: Diner 9 orders 2 burgers, 0 fries, 1 cokes.
+Time 124: Cook 0 is using soda machine for time 1 minutes. 1 cokes to make.
+Time 124: Cook 0 gets order from Diner 9.
+Time 125: Cook 0 releases soda machine.
+Time 131: Cook 1 releases burger machine.
+Time 131: Cook 0 is using burger machine for time 10 minutes. 2 burgers to make.
+Time 131: Cook 1 completes order of Diner 8.
+Time 131: Diner 8 starts eating.
+Time 141: Diner 6 leaves the resturant.
+Time 141: Cook 0 releases burger machine.
+Time 141: Cook 0 completes order of Diner 9.
+Time 141: Diner 9 starts eating.
+Time 151: Diner 7 leaves the resturant.
+Time 161: Diner 8 leaves the resturant.
+Time 171: Diner 9 leaves the resturant.
+Total cost time: 8s.
